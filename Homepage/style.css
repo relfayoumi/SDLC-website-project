@@ -1,0 +1,97 @@
+.imgDiv {
+  margin: auto;
+  width: 99%;
+  height: 600px;
+  object-fit: contain;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    padding: 8px;
+    margin: auto;
+    width: 50%;
+    font-size: large;
+}
+
+
+
+
+body {
+  margin:0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  height: 42px;
+  float: left;
+  padding: 2px;
+}
+.active {
+  background-color: grey;
+}
+.ulNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.ulList {
+padding: auto;
+}
+
+.liNav {
+  float: left;
+}
+.liNav  a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.liNav  a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(70, 70, 70);
+}
+.liNav.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.divTop {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+ol {
+  margin-left: 500px;
+}
